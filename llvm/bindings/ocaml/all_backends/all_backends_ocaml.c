@@ -28,5 +28,6 @@ value llvm_initialize_all(value Unit) {
   LLVMInitializeAllTargetMCs();
   LLVMInitializeAllAsmPrinters();
   LLVMInitializeAllAsmParsers();
+  LLVMInitializeNativeTarget();
   return Val_unit;
 }
