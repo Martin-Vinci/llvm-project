@@ -57,3 +57,13 @@ add_entrypoint_object(
   COMPILE_OPTIONS
     -O2
 )
+
+add_entrypoint_object(
+  logb
+  SRCS
+    logb.cpp
+  HDRS
+    ../sqrtl.h
+  COMPILE_OPTIONS
+    -O2
+)
